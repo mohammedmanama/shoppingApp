@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_favorite"
+        android:icon="@drawable/ic_shopping_cart"
+        android:orderInCategory="300"
+        android:title="Shopping"
+        app:showAsAction="ifRoom"/>
+    <group>
+
+        <item
+            android:id="@+id/aboutUs"
+            android:title="About Us"
+            android:enabled="true"/>
+        <item
+            android:id="@+id/logOut"
+            android:title="LogOut"
+            />
+    </group>
+</menu>
